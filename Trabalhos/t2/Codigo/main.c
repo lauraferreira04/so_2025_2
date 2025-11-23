@@ -13,6 +13,7 @@
 #include "es.h"
 #include "dispositivos.h"
 #include "so.h"
+#include "metricas.h"
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -130,6 +131,8 @@ int main()
   cria_hardware(&hw);
   // cria o sistema operacional
   so = so_cria(hw.cpu, hw.mem, hw.es, hw.console);
+  // inicializa as métricas do sistema
+  inicializa_metricas(&metricas);
 
   // executa o laço principal do controlador
   controle_laco(hw.controle);

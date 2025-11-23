@@ -99,15 +99,15 @@ A configuração do relógio também é realizada no atendimento à interrupçã
 Entenda as mudanças no código e o funcionamento do SO.
 
 Faça uma implementação inicial de processos:
-- crie um tipo de dados que é uma estrutura que contém as informações a respeito de um processo
-- crie uma tabela de processos, que é um vetor dessas estruturas
-- inicialize a primeira entrada nessa tabela (o primeiro processo) na criação do init
-- crie uma variável que designe o processo em execução. Faça de tal forma que tenha suporte a não ter nenhum processo em execução
-- altere `so_salva_estado_da_cpu` e `so_despacha` para salvar o estado do processador na tabela de processos (na entrada correspondente ao processo em execução) e para recuperar o estado do processador a partir da tabela
-- implemente a função do escalonador (`so_escalona`). Ela escolhe o próximo processo a executar (altera a variável que designa o processo em execução). Pode ser bem simples: se o processo que estava em execução estiver pronto continua sendo executado e se não, escolhe o primeiro que encontrar na tabela que esteja pronto. 
-- implemente as chamadas de criação e morte de processos
-- altere as chamadas de E/S, para usar um terminal diferente dependendo do pid do processo
-- o pid do processo não é a mesma coisa que sua entrada na tabela: quando um processo termina sua entrada na tabela pode ser reutilizada por outro processo, o pid não, é uma espécie de número de série do processo.
+1 crie um tipo de dados que é uma estrutura que contém as informações a respeito de um processo
+2 crie uma tabela de processos, que é um vetor dessas estruturas
+3 inicialize a primeira entrada nessa tabela (o primeiro processo) na criação do init
+4 crie uma variável que designe o processo em execução. Faça de tal forma que tenha suporte a não ter nenhum processo em execução
+5 altere `so_salva_estado_da_cpu` e `so_despacha` para salvar o estado do processador na tabela de processos (na entrada correspondente ao processo em execução) e para recuperar o estado do processador a partir da tabela
+6 implemente a função do escalonador (`so_escalona`). Ela escolhe o próximo processo a executar (altera a variável que designa o processo em execução). Pode ser bem simples: se o processo que estava em execução estiver pronto continua sendo executado e se não, escolhe o primeiro que encontrar na tabela que esteja pronto. 
+7 implemente as chamadas de criação e morte de processos
+8 altere as chamadas de E/S, para usar um terminal diferente dependendo do pid do processo
+9 o pid do processo não é a mesma coisa que sua entrada na tabela: quando um processo termina sua entrada na tabela pode ser reutilizada por outro processo, o pid não, é uma espécie de número de série do processo.
 
 ## Parte II
 
