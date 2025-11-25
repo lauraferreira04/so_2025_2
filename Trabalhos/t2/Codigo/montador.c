@@ -71,7 +71,7 @@ void mem_insere(int val)
 void mem_altera(int pos, int val)
 {
   if (pos < mem_min || pos > mem_max) {
-    erro_brabo("erro interno, alteração de região não inicializada");
+    erro_brabo("erro interno, alteracao de regiao nao inicializada");
   }
   mem[pos] = val;
 }
@@ -123,7 +123,7 @@ void simb_novo(char *nome, int valor)
     return;
   }
   if (simb_num >= SIMB_TAM) {
-    erro_brabo("Excesso de símbolos. Aumente SIMB_TAM no montador.");
+    erro_brabo("Excesso de simbolos. Aumente SIMB_TAM no montador.");
   }
   simbolo[simb_num].nome = strdup(nome);
   simbolo[simb_num].valor = valor;
@@ -167,7 +167,7 @@ void ref_resolve(void)
     int valor = simb_valor(ref[i].nome);
     if (valor == -1) {
       fprintf(stderr, 
-              "ERRO: simbolo '%s' referenciado na linha %d não foi definido\n",
+              "ERRO: simbolo '%s' referenciado na linha %d nao foi definido\n",
               ref[i].nome, ref[i].linha);
     }
     mem_altera(ref[i].endereco, valor);
@@ -232,7 +232,7 @@ void monta_define(int linha, char *label, char *arg)
   if (label == NULL) {
     fprintf(stderr, "ERRO: linha %d: 'DEFINE' exige um label\n", linha);
   } else if (!tem_numero(arg, &argn)) {
-    fprintf(stderr, "ERRO: linha %d 'DEFINE' exige valor numérico\n", linha);
+    fprintf(stderr, "ERRO: linha %d 'DEFINE' exige valor numerico\n", linha);
   } else {
     // tudo OK, define o símbolo
     simb_novo(label, argn);
@@ -264,7 +264,7 @@ void monta_linha(int linha, char *label, char *instrucao, char *arg)
   }
   int num_args = instrucao_num_args(opcode);
   if (num_args == 0 && arg != NULL) {
-    fprintf(stderr, "ERRO: linha %d: instrucao '%s' não tem argumento\n",
+    fprintf(stderr, "ERRO: linha %d: instrucao '%s' nao tem argumento\n",
                     linha, instrucao);
     return;
   }
@@ -399,13 +399,13 @@ void verifica_args(int argc, char *argv[argc])
     if (strcmp(argv[argi], "-e") == 0) {
       argi++;
       if (argi >= argc) {
-        fprintf(stderr, "ERRO: falta endereço após '-e'\n");
+        fprintf(stderr, "ERRO: falta endereco apos '-e'\n");
         exit(1);
       }
       char *fim = argv[argi];
       mem_pos = strtol(fim, &fim, 0);
       if (*fim != '\0') {
-        fprintf(stderr, "ERRO: endereço inválido: '%s'\n", argv[argi]);
+        fprintf(stderr, "ERRO: endereço invalido: '%s'\n", argv[argi]);
         exit(1);
       }
     } else {

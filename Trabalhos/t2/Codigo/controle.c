@@ -51,22 +51,18 @@ void controle_laco(controle_t *self)
 
       // (metricas) calcula tempo ocioso
       metricas.tempo_total_execucao++;
-      if (metricas.so_oscioso)
-      {
+      if (metricas.so_oscioso){
         metricas.tempo_total_ocioso++;
       }
       // (metricas) processos
-      for (int i = 0; i < 5; i++)
-      {
+      for (int i = 0; i < 5; i++){
         // guarda o tempo de criação de um processo
-        if (metricas.processos_recem_criado[i])
-        {
+        if (metricas.processos_recem_criado[i]){
           metricas.tempo_criacao[i] = metricas.tempo_total_execucao;
           metricas.processos_recem_criado[i] = false;
         }
         // metricas do tempo em cada estado
-        switch (metricas.processos_estado[i])
-        {
+        switch (metricas.processos_estado[i]){
           case 0:  // pronto
             metricas.tempo_pronto[i]++;
             break;
@@ -80,15 +76,13 @@ void controle_laco(controle_t *self)
             metricas.tempo_bloqueado[i]++;
             break;
           default:  // finalizado
-            if (!metricas.final_ja_registrado[i])
-            {
+            if (!metricas.final_ja_registrado[i]){
               metricas.tempo_retorno_processo[i] = metricas.tempo_total_execucao - metricas.tempo_criacao[i];
               console_printf("TEMPO DE RETORNO: %d - %d", metricas.tempo_total_execucao, metricas.tempo_criacao[i]);
               metricas.final_ja_registrado[i] = true;
             }
         }
       }
-
 
       if (self->estado == passo) self->estado = parado;
 

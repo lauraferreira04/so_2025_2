@@ -61,18 +61,18 @@ static void inicializa_rom(mem_t *mem)
 
   int end_ini = prog_end_carga(prog);
   if (end_ini != CPU_END_RESET) {
-    fprintf(stderr, "ROM não inicia no endereço %d (%d)\n", CPU_END_RESET, end_ini);
+    fprintf(stderr, "ROM nao inicia no endereco %d (%d)\n", CPU_END_RESET, end_ini);
     exit(1);
   }
   int end_fim = end_ini + prog_tamanho(prog);
   if (end_fim > CPU_END_FIM_ROM) {
-    fprintf(stderr, "conteúdo da ROM muito grande (%d>%d)\n", end_fim, CPU_END_FIM_ROM);
+    fprintf(stderr, "conteudo da ROM muito grande (%d>%d)\n", end_fim, CPU_END_FIM_ROM);
     exit(1);
   }
 
   for (int end = end_ini; end < end_fim; end++) {
     if (mem_escreve(mem, end, prog_dado(prog, end)) != ERR_OK) {
-      printf("Erro na carga da memória ROM, endereco %d\n", end);
+      printf("Erro na carga da memoria ROM, endereco %d\n", end);
       exit(1);
     }
   }
