@@ -1,0 +1,814 @@
+CMD: 'C'
+SO: recebi IRQ 0 (Reset)
+SO: carga de 'trata_int.maq'
+SO: carga na memoria fisica 60-72
+SO: carga de 'init.maq'
+SO: carga na memoria secundaria V0-169 F0-169 npag=17
+Processo criado
+TROCOU PRO INIT
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 0 (pagina 0)
+DEBUG: Quadro livre encontrado: 11
+SO: carregando pagina do disco, início em 0 (pg_livre=11, pag_virt=0)
+SO: pagina trocada para o processo 1, pagina virtual 0 mapeada para quadro 11
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 143 (pagina 14)
+DEBUG: Quadro livre encontrado: 12
+SO: carregando pagina do disco, início em 140 (pg_livre=12, pag_virt=14)
+SO: pagina trocada para o processo 1, pagina virtual 14 mapeada para quadro 12
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 66 (pagina 6)
+DEBUG: Quadro livre encontrado: 13
+SO: carregando pagina do disco, início em 60 (pg_livre=13, pag_virt=6)
+SO: pagina trocada para o processo 1, pagina virtual 6 mapeada para quadro 13
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 150 (pagina 15)
+DEBUG: Quadro livre encontrado: 14
+SO: carregando pagina do disco, início em 150 (pg_livre=14, pag_virt=15)
+SO: pagina trocada para o processo 1, pagina virtual 15 mapeada para quadro 14
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 169 (pagina 16)
+DEBUG: Quadro livre encontrado: 15
+SO: carregando pagina do disco, início em 160 (pg_livre=15, pag_virt=16)
+SO: pagina trocada para o processo 1, pagina virtual 16 mapeada para quadro 15
+SO: recebi IRQ 3 (E/S: relogio)
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 3 (E/S: relogio)
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 70 (pagina 7)
+DEBUG: Quadro livre encontrado: 16
+SO: carregando pagina do disco, início em 70 (pg_livre=16, pag_virt=7)
+SO: pagina trocada para o processo 1, pagina virtual 7 mapeada para quadro 16
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 3 (E/S: relogio)
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 3 (E/S: relogio)
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 3 (E/S: relogio)
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 3 (E/S: relogio)
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 3 (E/S: relogio)
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 80 (pagina 8)
+DEBUG: Quadro livre encontrado: 17
+SO: carregando pagina do disco, início em 80 (pg_livre=17, pag_virt=8)
+SO: pagina trocada para o processo 1, pagina virtual 8 mapeada para quadro 17
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 3 (E/S: relogio)
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 3 (E/S: relogio)
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 3 (E/S: relogio)
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+SO: recebi IRQ 3 (E/S: relogio)
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 10 (pagina 1)
+DEBUG: Quadro livre encontrado: 18
+SO: carregando pagina do disco, início em 10 (pg_livre=18, pag_virt=1)
+SO: pagina trocada para o processo 1, pagina virtual 1 mapeada para quadro 18
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 7
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 109 (pagina 10)
+DEBUG: Quadro livre encontrado: 19
+SO: carregando pagina do disco, início em 100 (pg_livre=19, pag_virt=10)
+SO: pagina trocada para o processo 1, pagina virtual 10 mapeada para quadro 19
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 20 (pagina 2)
+DEBUG: Quadro livre encontrado: 20
+SO: carregando pagina do disco, início em 20 (pg_livre=20, pag_virt=2)
+SO: pagina trocada para o processo 1, pagina virtual 2 mapeada para quadro 20
+SO: recebi IRQ 3 (E/S: relogio)
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 7
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 110 (pagina 11)
+DEBUG: Quadro livre encontrado: 21
+SO: carregando pagina do disco, início em 110 (pg_livre=21, pag_virt=11)
+SO: pagina trocada para o processo 1, pagina virtual 11 mapeada para quadro 21
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 7
+[1] pediu para criar processo 'p3.maq' (ender_proc=102)
+SO: carga de 'p3.maq'
+SO: carga na memoria secundaria V0-240 F170-410 npag=25
+Processo criado
+processo_cria retornou PID 2
+indice proc criado: 1
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 30 (pagina 3)
+DEBUG: Quadro livre encontrado: 22
+SO: carregando pagina do disco, início em 30 (pg_livre=22, pag_virt=3)
+SO: pagina trocada para o processo 1, pagina virtual 3 mapeada para quadro 22
+SO: recebi IRQ 3 (E/S: relogio)
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 9
+[1] vai esperar o fim de [-1]
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 0 (pagina 0)
+DEBUG: Quadro livre encontrado: 23
+SO: carregando pagina do disco, início em 170 (pg_livre=23, pag_virt=0)
+SO: pagina trocada para o processo 2, pagina virtual 0 mapeada para quadro 23
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 70 (pagina 7)
+DEBUG: Quadro livre encontrado: 24
+SO: carregando pagina do disco, início em 240 (pg_livre=24, pag_virt=7)
+SO: pagina trocada para o processo 2, pagina virtual 7 mapeada para quadro 24
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 88 (pagina 8)
+DEBUG: Quadro livre encontrado: 25
+SO: carregando pagina do disco, início em 250 (pg_livre=25, pag_virt=8)
+SO: pagina trocada para o processo 2, pagina virtual 8 mapeada para quadro 25
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 90 (pagina 9)
+DEBUG: Quadro livre encontrado: 26
+SO: carregando pagina do disco, início em 260 (pg_livre=26, pag_virt=9)
+SO: pagina trocada para o processo 2, pagina virtual 9 mapeada para quadro 26
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 140 (pagina 14)
+DEBUG: Quadro livre encontrado: 27
+SO: carregando pagina do disco, início em 310 (pg_livre=27, pag_virt=14)
+SO: pagina trocada para o processo 2, pagina virtual 14 mapeada para quadro 27
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 153 (pagina 15)
+DEBUG: Quadro livre encontrado: 28
+SO: carregando pagina do disco, início em 320 (pg_livre=28, pag_virt=15)
+SO: pagina trocada para o processo 2, pagina virtual 15 mapeada para quadro 28
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 166 (pagina 16)
+DEBUG: Quadro livre encontrado: 29
+SO: carregando pagina do disco, início em 330 (pg_livre=29, pag_virt=16)
+SO: pagina trocada para o processo 2, pagina virtual 16 mapeada para quadro 29
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 10 (pagina 1)
+DEBUG: Quadro livre encontrado: 30
+SO: carregando pagina do disco, início em 180 (pg_livre=30, pag_virt=1)
+SO: pagina trocada para o processo 2, pagina virtual 1 mapeada para quadro 30
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 20 (pagina 2)
+DEBUG: Quadro livre encontrado: 31
+SO: carregando pagina do disco, início em 190 (pg_livre=31, pag_virt=2)
+SO: pagina trocada para o processo 2, pagina virtual 2 mapeada para quadro 31
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 30 (pagina 3)
+DEBUG: Quadro livre encontrado: 32
+SO: carregando pagina do disco, início em 200 (pg_livre=32, pag_virt=3)
+SO: pagina trocada para o processo 2, pagina virtual 3 mapeada para quadro 32
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 40 (pagina 4)
+DEBUG: Quadro livre encontrado: 33
+SO: carregando pagina do disco, início em 210 (pg_livre=33, pag_virt=4)
+SO: pagina trocada para o processo 2, pagina virtual 4 mapeada para quadro 33
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 50 (pagina 5)
+DEBUG: Quadro livre encontrado: 34
+SO: carregando pagina do disco, início em 220 (pg_livre=34, pag_virt=5)
+SO: pagina trocada para o processo 2, pagina virtual 5 mapeada para quadro 34
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 60 (pagina 6)
+DEBUG: Quadro livre encontrado: 35
+SO: carregando pagina do disco, início em 230 (pg_livre=35, pag_virt=6)
+SO: pagina trocada para o processo 2, pagina virtual 6 mapeada para quadro 35
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 237 (pagina 23)
+DEBUG: Quadro livre encontrado: 36
+SO: carregando pagina do disco, início em 400 (pg_livre=36, pag_virt=23)
+SO: pagina trocada para o processo 2, pagina virtual 23 mapeada para quadro 36
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 170 (pagina 17)
+DEBUG: Quadro livre encontrado: 37
+SO: carregando pagina do disco, início em 340 (pg_livre=37, pag_virt=17)
+SO: pagina trocada para o processo 2, pagina virtual 17 mapeada para quadro 37
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 187 (pagina 18)
+DEBUG: Quadro livre encontrado: 38
+SO: carregando pagina do disco, início em 350 (pg_livre=38, pag_virt=18)
+SO: pagina trocada para o processo 2, pagina virtual 18 mapeada para quadro 38
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 190 (pagina 19)
+DEBUG: Quadro livre encontrado: 39
+SO: carregando pagina do disco, início em 360 (pg_livre=39, pag_virt=19)
+SO: pagina trocada para o processo 2, pagina virtual 19 mapeada para quadro 39
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 200 (pagina 20)
+DEBUG: Quadro livre encontrado: 40
+SO: carregando pagina do disco, início em 370 (pg_livre=40, pag_virt=20)
+SO: pagina trocada para o processo 2, pagina virtual 20 mapeada para quadro 40
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 240 (pagina 24)
+DEBUG: Quadro livre encontrado: 41
+SO: carregando pagina do disco, início em 410 (pg_livre=41, pag_virt=24)
+SO: pagina trocada para o processo 2, pagina virtual 24 mapeada para quadro 41
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 210 (pagina 21)
+DEBUG: Quadro livre encontrado: 42
+SO: carregando pagina do disco, início em 380 (pg_livre=42, pag_virt=21)
+SO: pagina trocada para o processo 2, pagina virtual 21 mapeada para quadro 42
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 220 (pagina 22)
+DEBUG: Quadro livre encontrado: 43
+SO: carregando pagina do disco, início em 390 (pg_livre=43, pag_virt=22)
+SO: pagina trocada para o processo 2, pagina virtual 22 mapeada para quadro 43
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 100 (pagina 10)
+DEBUG: Quadro livre encontrado: 44
+SO: carregando pagina do disco, início em 270 (pg_livre=44, pag_virt=10)
+SO: pagina trocada para o processo 2, pagina virtual 10 mapeada para quadro 44
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 110 (pagina 11)
+DEBUG: Quadro livre encontrado: 45
+SO: carregando pagina do disco, início em 280 (pg_livre=45, pag_virt=11)
+SO: pagina trocada para o processo 2, pagina virtual 11 mapeada para quadro 45
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 120 (pagina 12)
+DEBUG: Quadro livre encontrado: 46
+SO: carregando pagina do disco, início em 290 (pg_livre=46, pag_virt=12)
+SO: pagina trocada para o processo 2, pagina virtual 12 mapeada para quadro 46
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 1 (Erro de execucao)
+SO: tratando page fault para endereço 138 (pagina 13)
+DEBUG: Quadro livre encontrado: 47
+SO: carregando pagina do disco, início em 300 (pg_livre=47, pag_virt=13)
+SO: pagina trocada para o processo 2, pagina virtual 13 mapeada para quadro 47
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 2
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: 2
+Processo escalonado!
+SO: recebi IRQ 2 (Chamada de sistema)
+SO: chamada de sistema 8
+DEBUG: Round-Robin olhou a fila. Primeiro PID: -1
+Processo escalonado!
+TEMPO DE RETORNO: 3196 - 698
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: -1
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: -1
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: -1
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: -1
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: -1
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: -1
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: -1
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: -1
+Processo escalonado!
+SO: recebi IRQ 3 (E/S: relogio)
+DEBUG: Round-Robin olhou a fila. Primeiro PID: -1
+Processo escalonado!
+CMD: 'F'
+Fim da execução.

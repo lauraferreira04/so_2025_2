@@ -1,0 +1,23 @@
+- n processos criados: 0
+- tempo total de execução: 3867
+- tempo total ocioso: 88
+- irqs: reset[1], err_cpou[41], sistema[132], teclado[0] tela[0] relogio[71], desconhecida[0]
+- n preempções: 194
+
+Métricas de processos:
+Processo 0
+- tempo de retorno proc -1: 1254
+- n vezes em cada estado proc -1 : pronto[1], block[0], exec[34]
+- tempo em cada estado do proc -1 : pronto[727], block[0], exec[528]
+Processo 1
+- tempo de retorno proc 0: 3082
+- n vezes em cada estado proc 0 : pronto[1], block[0], exec[56]
+- tempo em cada estado do proc 0 : pronto[1255], block[0], exec[2524]
+Processo 2
+- tempo de retorno proc 1: 0
+- n vezes em cada estado proc 1 : pronto[2], block[0], exec[0]
+- tempo em cada estado do proc 1 : pronto[3867], block[0], exec[0]
+Processo 3
+- tempo de retorno proc 2: 0
+- n vezes em cada estado proc 2 : pronto[2], block[0], exec[0]
+- tempo em cada estado do proc 2 : pronto[3867], block[0], exec[0]
