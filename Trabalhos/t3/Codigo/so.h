@@ -14,7 +14,24 @@ typedef struct so_t so_t;
 #include "es.h"
 #include "console.h" // só para uma gambiarra
 
-so_t *so_cria(cpu_t *cpu, mem_t *mem, mmu_t *mmu,
+// funções de processos
+
+// carrega um programa na memória, altera o processo corrente e retorna o endereço de carga
+int processo_cria(so_t *so, char *nome_do_executavel, int *ender_carga);
+
+// mata o processo corrente
+void processo_mata(so_t *so, int pid);
+
+// muda o processo corrente
+void processo_troca_corrente(so_t *self);
+
+// verifica se todos os processos encerraram
+bool todos_processos_encerrados(so_t *self);
+
+// acha o índice de um processo na tablea aparti do pid
+int acha_indice_por_pid(so_t *self, int pid);
+
+so_t *so_cria(cpu_t *cpu, mem_t *mem, mem_t *mem_secundaria, mmu_t *mmu,
               es_t *es, console_t *console);
 void so_destroi(so_t *self);
 

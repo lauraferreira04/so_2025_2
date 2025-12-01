@@ -28,6 +28,9 @@ typedef struct relogio_t relogio_t;
 // cria e inicializa um relógio
 relogio_t *relogio_cria(void);
 
+// cria e inicializa um relógio
+relogio_t *relogio_cria(void);
+
 // destrói um relógio
 // nenhuma outra operação pode ser realizada no relógio após esta chamada
 void relogio_destroi(relogio_t *self);
@@ -44,5 +47,8 @@ void relogio_tictac(relogio_t *self);
 // Devem seguir o protocolo f_leitura_t e f_escrita_t declarados em es.h
 err_t relogio_leitura(void *disp, int id, int *pvalor);
 err_t relogio_escrita(void *disp, int id, int pvalor);
+
+// retorna o tempo atual
+int relogio_agora();
 
 #endif // RELOGIO_H

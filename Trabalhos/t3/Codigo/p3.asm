@@ -3,7 +3,7 @@
 ; faz chamadas de sistema para E/S
 
 ; usa pouca CPU e bastante E/S
-N        define 50  ; até quanto vai contar
+N        define 4  ; até quanto vai contar
 CADA     define 1   ; a cada tantos, imprime o valor atual
 
          desv main

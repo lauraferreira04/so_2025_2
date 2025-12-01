@@ -10,6 +10,9 @@
 #include <time.h>
 #include <assert.h>
 
+// gambiarra
+int agora_global;
+
 struct relogio_t {
   // que horas são (em tics)
   int agora;
@@ -38,6 +41,7 @@ void relogio_destroi(relogio_t *self)
 void relogio_tictac(relogio_t *self)
 {
   self->agora++;
+  agora_global = self->agora;
   // vê se tem que gerar interrupção
   if (self->t_ate_interrupcao != 0) {
     self->t_ate_interrupcao--;
@@ -85,4 +89,9 @@ err_t relogio_escrita(void *disp, int id, int pvalor)
       err = ERR_END_INV;
   }
   return err;
+}
+
+int relogio_agora()
+{
+  return agora_global;
 }
