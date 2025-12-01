@@ -1336,6 +1336,10 @@ static bool so_copia_str_do_processo(so_t *self, int tam, char str[tam],
     //   está na memória principal, e só temos uma tabela de páginas
     if (mmu_le(self->mmu, end_virt + indice_str, &caractere, usuario) != ERR_OK) {
       return false;
+
+      //return false;
+      // se não está na memória principal, busca na memória secundária (disco)
+      mem_le(self->mem2, processo.quadro_mem2 + end_virt + indice_str, &caractere);
     }
     if (caractere < 0 || caractere > 255) {
       return false;
